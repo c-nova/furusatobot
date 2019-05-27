@@ -38,10 +38,15 @@ namespace Microsoft.BotBuilderSamples
             null,
             httpClient);
 
+            var qnaOption = new QnAMakerOptions
+            {
+                ScoreThreshold = 0.8f
+            };
+
             _logger.LogInformation("Calling QnA Maker");
 
             // The actual call to the QnA Maker service.
-            var response = await qnaMaker.GetAnswersAsync(turnContext);
+            var response = await qnaMaker.GetAnswersAsync(turnContext, qnaOption);
             if (response != null && response.Length > 0)
             {
                 await turnContext.SendActivityAsync(MessageFactory.Text(response[0].Answer), cancellationToken);
