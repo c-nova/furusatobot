@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+このファイルは、Web プロジェクトの発行 / パッケージ処理で使用されます。この MSBuild ファイルを編集すると、
+この処理の動作をカスタマイズできます。詳細については、https://go.microsoft.com/fwlink/?LinkID=208121 を参照してください。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtQ1zPbt0lU+6gCiy3b0oaQAAAAACAAAAAAADZgAAwAAAABAAAAD8tto7Wy0iJWrC3auCfSUhAAAAAASAAACgAAAAEAAAAIuFZd3p/Qe1XMgtvyI0THyAAAAAvx1rLPUWsGUuNVRa3ouoIE528f1mDMiKQNeSxaHxGcGxqORWQHsRtJaVzAcEPYzR/RQVVmwqHpxfAFA2C6+az1RT/XhLcZ08mTziofxY+IdbiiC8JYUaht9xpEMtL6vGtoefP2tKFDMVPhfNyqfOb4NM04tC6ce756ZgGJh8K2cUAAAAEhVGBU14LyqFuPSNc1fdWUAwQ2w=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-ty1-005.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdapterWithErrorHandler.cs">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="Bots/QnABot.cs">
+      <publishTime>05/27/2019 18:00:35</publishTime>
+    </File>
+    <File Include="ConfigurationCredentialProvider.cs">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="Controllers/BotController.cs">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.AI.QnA.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.Integration.AspNet.Core.dll">
+      <publishTime>05/03/2019 23:34:58</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Configuration.dll">
+      <publishTime>05/03/2019 23:34:56</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Connector.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Schema.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <publishTime>01/11/2019 18:50:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>02/08/2018 22:16:40</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>02/08/2018 22:17:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>02/08/2018 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>02/08/2018 22:16:44</publishTime>
+    </File>
+    <File Include="Microsoft.Rest.ClientRuntime.dll">
+      <publishTime>02/27/2019 20:49:20</publishTime>
+    </File>
+    <File Include="PostDeployScripts/githubProject.json.template">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/IncludeSources.targets">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/mergeSettings.js">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/prepareSrc.cmd">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/publish.cmd.template">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/publishProfile.xml.template">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/publishSettings.xml.template">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/runGulp.cmd">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/setupGithubRemoteRepo.cmd">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/setupVsoRemoteRepo.cmd">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="PostDeployScripts/vsoProject.json.template">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="Program.cs">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="QnABot.csproj">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="QnABot.deps.json">
+      <publishTime>05/27/2019 18:10:06</publishTime>
+    </File>
+    <File Include="QnABot.dll">
+      <publishTime>05/27/2019 18:09:58</publishTime>
+    </File>
+    <File Include="QnABot.pdb">
+      <publishTime>05/27/2019 18:09:58</publishTime>
+    </File>
+    <File Include="QnABot.runtimeconfig.json">
+      <publishTime>05/27/2019 18:10:06</publishTime>
+    </File>
+    <File Include="Startup.cs">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>02/08/2018 22:16:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/27/2019 18:10:06</publishTime>
+    </File>
+    <File Include="wwwroot/default.htm">
+      <publishTime>05/27/2019 15:40:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

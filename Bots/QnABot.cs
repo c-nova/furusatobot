@@ -40,7 +40,7 @@ namespace Microsoft.BotBuilderSamples
 
             var qnaOption = new QnAMakerOptions
             {
-                ScoreThreshold = 0.8f
+                ScoreThreshold = 0.5f
             };
 
             _logger.LogInformation("Calling QnA Maker");
