@@ -1,6 +1,8 @@
 *.dll
 *.pdb
 *.lock
+*.bot
+.env
 obj/**
 bin/**
 runtimes/**
